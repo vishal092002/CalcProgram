@@ -6,8 +6,7 @@ install:
 # command to run tests
 script:
   - pytest --pylint
-
 branches:
   only:
-    - main
+    - master
     - development
